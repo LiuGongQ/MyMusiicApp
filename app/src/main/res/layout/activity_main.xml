@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+
+
+        <EditText
+            android:id="@+id/forSearch"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="@string/search"
+            android:textSize="16sp"
+            android:background="@drawable/search_shape"/>
+        <ImageButton
+            android:id="@+id/bn_mlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <view class="androidx.appcompat.app.AlertController$RecycleListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </view>
+
+    </LinearLayout>
+
+
+</LinearLayout>
